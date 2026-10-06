@@ -10,7 +10,7 @@ A comprehensive experiment to analyze execution times, speedup, and memory overh
 - [Overview](#overview)
 - [Dataset Plan](#dataset-plan)
 - [System Requirements](#system-requirements) 
-- [Quick Start Guide](#quick-start-guide)
+- [Set-up](#set-up)
 - [Benchmark Execution & Results Table](#benchmark-execution--results-table)
   - [Iteration Runs (1 to 5)](#iteration-runs-1-to-5)
   - [Final Average Summary Table](#final-average-summary-table)
@@ -66,7 +66,7 @@ The experiment tests 5 separate dataset sizes using single-precision floating-po
 
 ---
 
-## Quick Start Guide
+## Set-up
 
 ### 1. Environment Verification
 Verify that your GPU and CUDA compiler are properly configured in your path:
