@@ -282,6 +282,7 @@ Comparing CUDA Kernel Time directly to CPU Time isolates raw processing throughp
 ├── system_verification
 │   ├── nvcc--version.jpeg
 │   └── nvidia-smi.jpeg
+├──presentation
 └── README.md
 ```
 
