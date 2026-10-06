@@ -24,6 +24,7 @@ A comprehensive experiment to analyze execution times, speedup, and memory overh
   - [2. Why Compare CUDA Kernel Time vs. CPU Time?](#2-why-compare-cuda-kernel-time-vs-cpu-time)
 - [Key Takeaways](#key-takeaways)
 - [How to Run](#how-to-run)
+- [Project Directory Structure](#project-directory-structure)
 
 ---
 
@@ -248,3 +249,39 @@ Comparing CUDA Kernel Time directly to CPU Time isolates raw processing throughp
     ```bash
     python generate_plots.py
     ```
+
+## Project Directory Structure
+
+```text
+├── graphs
+│   ├── cuda_performance_analysis.png
+│   ├── cuda_speedup_analysis.png
+│   └── cuda_time_comparison.png
+├── screenshots
+│   ├── iteration_1
+│   ├── iteration_2
+│   │   ├── 10M_iteration_02.jpeg
+│   │   ├── 1M_iteration_02.jpeg
+│   │   ├── 20M_iteration_02.jpeg
+│   │   ├── 50M_iteration_02.jpeg
+│   │   └── 5M_iteration_02.jpeg
+│   ├── iteration_3
+│   ├── iteration_4
+│   └── iteration_5
+├── scripts
+│   ├── benchmark.sh
+│   ├── benchmark_results.log.txt
+│   ├── generate_plots.py
+│   └── parse-sysbench.py
+├── src
+│   ├── dataset_10M.cu
+│   ├── dataset_1M.cu
+│   ├── dataset_20M.cu
+│   ├── dataset_50M.cu
+│   └── dataset_5M.cu
+├── system_verification
+│   ├── nvcc--version.jpeg
+│   └── nvidia-smi.jpeg
+└── README.md
+```
+
