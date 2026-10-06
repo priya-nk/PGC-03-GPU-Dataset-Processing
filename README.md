@@ -207,7 +207,7 @@ Comparing CUDA Kernel Time directly to CPU Time isolates raw processing throughp
 
 ---
 
-## Key Takeaways
+## Observations
 
 - **Massive Compute Potential:** Raw GPU compute core performance scales exceptionally well with data size—achieving **~28.97x** speedup on the kernel alone for 50 million elements.
 - **Increasing GPU Efficiency:** As the dataset size increases, the GPU is able to utilize its parallel processing resources more effectively, with kernel speedup increasing from **2.04x for 1 million elements to 28.97x for 50 million elements**.
