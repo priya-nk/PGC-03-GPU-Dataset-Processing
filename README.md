@@ -19,7 +19,7 @@ A comprehensive experiment to analyze execution times, speedup, and memory overh
   - [1. Compute-Only Kernel Speedup Scaling](#1-compute-only-kernel-speedup-scaling)
   - [2. Execution Time Breakdown](#2-execution-time-breakdown)
   - [3. Performance Analysis](#3-performance-analysis)
-- [Technical Analysis](#technical-analysis)
+- [Questions](#questions)
   - [1. Why Total CUDA Time Exceeds CPU Time (Small Datasets)](#1-why-total-cuda-time-exceeds-cpu-time-small-datasets)
   - [2. Why Compare CUDA Kernel Time vs. CPU Time?](#2-why-compare-cuda-kernel-time-vs-cpu-time)
 - [Observations](#observations)
@@ -189,7 +189,7 @@ Visualizing where execution time is spent during CUDA processing vs. CPU process
 
 ---
 
-## Technical Analysis
+## Questions
 
 ### 1. Why Total CUDA Time Exceeds CPU Time (Small Datasets)
 For lighter or simple math workloads, Total CUDA Time often exceeds CPU time, yielding an end-to-end speedup below $1.0\times$:
