@@ -8,6 +8,7 @@ A comprehensive experiment to analyze execution times, speedup, and memory overh
 ## Table of Contents
 
 - [Overview](#overview)
+- [Objectives](#objectives)
 - [Dataset Plan](#dataset-plan)
 - [System Requirements](#system-requirements) 
 - [Set-up](#set-up)
@@ -35,6 +36,9 @@ A comprehensive experiment to analyze execution times, speedup, and memory overh
 - **Main Task:** Perform an element-wise numeric operation ($\text{Output}[i] = \text{Input}[i] \times 2$) across 5 different dataset sizes, measure processing times, verify data correctness, and calculate speedup.
 
 ---
+
+## Objectives
+- 
 
 ## Dataset Plan
 
