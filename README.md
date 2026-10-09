@@ -23,7 +23,7 @@ A comprehensive experiment to analyze execution times, speedup, and memory overh
 - [Questions](#questions)
   - [1. Why Total CUDA Time Exceeds CPU Time (Small Datasets)](#1-why-total-cuda-time-exceeds-cpu-time-small-datasets)
   - [2. Why Compare CUDA Kernel Time vs. CPU Time?](#2-why-compare-cuda-kernel-time-vs-cpu-time)
-- [Observations](#observations)
+- [Conclusion](#conclusion)
 - [How to Run](#how-to-run)
 - [Project Directory Structure](#project-directory-structure)
 
@@ -211,7 +211,7 @@ Comparing CUDA Kernel Time directly to CPU Time isolates raw processing throughp
 
 ---
 
-## Observations
+## Conclusion
 
 - **Massive Compute Potential:** Raw GPU compute core performance scales exceptionally well with data size—achieving **~28.97x** speedup on the kernel alone for 50 million elements.
 - **Increasing GPU Efficiency:** As the dataset size increases, the GPU is able to utilize its parallel processing resources more effectively, with kernel speedup increasing from **2.04x for 1 million elements to 28.97x for 50 million elements**.
