@@ -8,7 +8,7 @@ A comprehensive experiment to analyze execution times, speedup, and memory overh
 ## Table of Contents
 
 - [Overview](#overview)
-- [Objectives](#objectives)
+- [Objective](#objective)
 - [Dataset Plan](#dataset-plan)
 - [System Requirements](#system-requirements) 
 - [Set-up](#set-up)
@@ -37,8 +37,8 @@ A comprehensive experiment to analyze execution times, speedup, and memory overh
 
 ---
 
-## Objectives
-- 
+## Objective
+- Measure, compare, and analyze CPU vs. CUDA GPU processing performance, speedup, and memory overhead across growing dataset sizes.
 
 ## Dataset Plan
 
