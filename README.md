@@ -167,10 +167,10 @@ $$\text{Average Time} = \frac{\text{Run}_1 + \text{Run}_2 + \text{Run}_3 + \text
 Speedup quantifies how many times faster the parallel CUDA implementation performs compared to the sequential CPU baseline.
 
 1. **Total System Speedup (End-to-End):** Includes data transfer over the PCIe bus ($\text{Host} \to \text{Device}$ and $\text{Device} \to \text{Host}$).
-   $$\text{Speedup}_{\text{Total}} = \frac{\text{CPU Execution Time}}{\text{Total CUDA Execution Time}}$$
+   $$\boxed{\text{Speedup}_{\text{Total}} = \frac{\text{CPU Execution Time}}{\text{Total CUDA Execution Time}}}$$
 
 2. **Compute-Only Speedup (Kernel Performance):** Isolates pure GPU parallel processing performance from bus transfer latency.
-   $$\text{Speedup}_{\text{Kernel}} = \frac{\text{CPU Execution Time}}{\text{CUDA Kernel Time}}$$
+   $$\boxed{\text{Speedup}_{\text{Kernel}} = \frac{\text{CPU Execution Time}}{\text{CUDA Kernel Time}}}$$
 
 ---
 
